@@ -4,8 +4,6 @@ import { sanitizeUrl } from '@braintree/sanitize-url'
 
 import { truncate } from '../../helpers'
 
-import './style.scss'
-
 const Button = ({ button, sendMessage }) => {
   const { value, title } = button
   // Increase Button length to 80 characters per SAPMLCONV-3486

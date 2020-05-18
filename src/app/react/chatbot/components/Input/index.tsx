@@ -6,7 +6,6 @@ import SendButton from '../SendButton'
 
 import Menu from '../Menu'
 import MenuSVG from '../svgs/menu'
-import './style.scss'
 import IPreferences from '../../types/IPreferences'
 
 // Number of minimum char to display the char limit.

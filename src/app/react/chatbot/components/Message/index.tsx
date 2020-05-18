@@ -11,7 +11,6 @@ import Picture from './Picture'
 import Carousel from './Carousel'
 import QuickReplies from './QuickReplies'
 
-import './style.scss'
 import IPreferences from '../../types/IPreferences'
 
 interface Props {

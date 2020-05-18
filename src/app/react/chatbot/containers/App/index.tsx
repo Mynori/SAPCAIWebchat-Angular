@@ -9,7 +9,6 @@ import { setCredentials, createConversation } from '../../actions/conversation'
 import { storeCredentialsToLocalStorage, getCredentialsFromLocalStorage } from '../../helpers'
 import IPreferences from '../../types/IPreferences'
 
-import './style.scss'
 
 const NO_LOCALSTORAGE_MESSAGE
   = 'Sorry, your browser does not support web storage. Are you in localhost ?'

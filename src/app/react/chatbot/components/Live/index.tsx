@@ -6,7 +6,6 @@ import pathOr from 'ramda/es/pathOr'
 import Message from '../Message'
 import IsTyping from '../Message/isTyping'
 
-import './style.scss'
 import IPreferences from '../../types/IPreferences'
 
 export interface IMessage {

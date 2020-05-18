@@ -2,7 +2,6 @@ import * as React from 'react'
 import *as PropTypes from 'prop-types'
 import { sanitizeUrl } from '@braintree/sanitize-url'
 
-import './style.scss'
 
 const Picture = ({ title, onImageLoaded }) => {
   if (title && sanitizeUrl(title) === 'about:blank') {

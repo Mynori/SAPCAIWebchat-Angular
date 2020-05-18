@@ -1,7 +1,6 @@
 import * as React from 'react'
 import cx from 'classnames'
 
-import './style.scss'
 
 const menu = ({ onClick, className }: { onClick: any, className?: string }) => {
   return (

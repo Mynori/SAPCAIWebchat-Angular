@@ -4,8 +4,6 @@ import * as PropTypes from 'prop-types'
 import ArrowLeft from '../svgs/arrowLeft'
 import ArrowRight from '../svgs/arrowRight'
 
-import './style.scss'
-
 interface Props {
   currentMenu: {
     title

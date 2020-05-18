@@ -2,7 +2,6 @@ import * as  React from 'react'
 import * as PropTypes from 'prop-types'
 import cx from 'classnames'
 
-import './style.scss'
 
 /**
  * TODO: STILL IN DEVELOPMENT BECAUSE NOT COMPATIBLE WITH IE11 YET

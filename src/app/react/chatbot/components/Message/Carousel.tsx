@@ -5,8 +5,6 @@ import Slider from 'react-slick'
 import Card from './Card'
 import { PrevArrow, NextArrow } from '../arrows'
 
-import './style.scss'
-
 const Carousel = ({ content, sendMessage }) => {
   return (
     <div className={'RecastAppCarousel CaiAppCarousel'}>

@@ -5,8 +5,6 @@ import Button from '../Button'
 
 import { truncate } from '../../helpers'
 
-import './style.scss'
-
 const Buttons = ({ content, sendMessage, style }) => {
   const { title, buttons } = content
   return (

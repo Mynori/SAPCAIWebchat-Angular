@@ -2,8 +2,6 @@ import * as React from 'react'
 import * as PropTypes from 'prop-types'
 import cx from 'classnames'
 
-import './style.scss'
-
 export const PrevArrow = ({ className, style, onClick }) => (
   <div
     className={cx('RecastAppArrow CaiAppArrow prev', className)}

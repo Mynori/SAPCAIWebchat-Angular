@@ -1,7 +1,6 @@
 import * as React from 'react'
 import * as PropTypes from 'prop-types'
 import cx from 'classnames'
-import './style.scss'
 import IPreferences from '../../types/IPreferences'
 
 const Expander = ({ onClick, preferences, style, show }: {onClick: any, preferences: IPreferences, style: any, show: any}) => (

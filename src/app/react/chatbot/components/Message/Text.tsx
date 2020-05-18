@@ -5,7 +5,6 @@ import * as ReactMarkdown from 'react-markdown'
 
 import { truncate } from '../../helpers'
 
-import './style.scss'
 
 const allowedMarkdownTypes: ReactMarkdown.NodeType[] = [
   'paragraph',

@@ -1,7 +1,6 @@
 import * as React from 'react'
 import * as PropTypes from 'prop-types'
 
-import './style.scss'
 import IPreferences from '../../types/IPreferences'
 
 const SendButton = ({ sendMessage, preferences, value }: { sendMessage, preferences: IPreferences, value }) => (

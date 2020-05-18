@@ -18,7 +18,6 @@ import Header from '../../components/Header'
 import { IMessage, Live } from '../../components/Live'
 import Input from '../../components/Input'
 
-import './style.scss'
 import IPreferences from '../../types/IPreferences'
 
 const MAX_GET_MEMORY_TIME = 10 * 1000 // in ms
@@ -451,16 +450,7 @@ class Chat extends React.Component<Props, State> {
                 showInfo={showInfo}
                 onClickShowInfo={onClickShowInfo}
                 containerMessagesStyle={containerMessagesStyle}
-              />,
-              <div
-                key='slogan'
-                style={{ maxWidth:'23.0rem' }}
-                className={cx('RecastAppChat--slogan CaiAppChat--slogan', {
-                  'RecastAppChat--slogan--hidden CaiAppChat--slogan--hidden': !showSlogan,
-                })}
-              >
-                {'We run with SAP Conversational AI'}
-              </div>,
+              />
             ]}
         </div>
         { !readOnlyMode && <Input

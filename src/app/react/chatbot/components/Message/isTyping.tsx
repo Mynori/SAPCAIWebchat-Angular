@@ -2,7 +2,6 @@ import * as React from 'react'
 import * as PropTypes from 'prop-types'
 import { sanitizeUrl } from '@braintree/sanitize-url'
 
-import './style.scss'
 
 interface Props {
   callAfterTimeout: Function
