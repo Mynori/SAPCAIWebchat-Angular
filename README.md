@@ -1,7 +1,7 @@
 # SAP CAI Angular
 
 ## Informations
-This projet is about having the [https://github.com/SAPConversationalAI/Webchat](SAP CAI Webchat) React component working within an Angular web app with Typescript.
+This projet is about having the [SAP CAI Webchat](https://github.com/SAPConversationalAI/Webchat) React component working within an Angular web app with Typescript.
 
 ## Development server
 
